@@ -8,6 +8,7 @@ nav ul {
     text-decoration: none;
     color: gray;
 
+
 }
 
 nav ul li{
@@ -17,8 +18,8 @@ nav ul li{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 50px;
-    margin: 0;
+    padding: 15px;
+    margin-bottom: 6px;
     font-size: 20px;
 
 }
@@ -29,6 +30,10 @@ nav ul li a{
     text-decoration: none;
     text-align: center;
     padding-bottom: 5em;
+    justify-content: space-around;
+    margin-bottom: 6px;
+
+
 }
 
 nav ul img{
@@ -40,11 +45,19 @@ nav ul img{
 header img{
 
     margin-left: 200px;
+   
 }
 
 
+
+div{
+
+    padding: 10px;
+    width: 100%;
+}
 img{
-margin-left: 100px;
+margin-left: 110px;
+padding: -50px;
 }
 /* .first{
 
@@ -71,13 +84,15 @@ float: left;
 margin-left: 50px;
 } */ 
 
+
 p{
     float:right;
-    width: 50%;
+    width: 35%;
     font-size: 25px;
     overflow: scroll;
-    height: 200px;
-
+    height: 300px;
+    text-align: justify;
+    margin-right: 200px;
 }
 button{
 
@@ -87,7 +102,7 @@ button{
     text-align: center;
     color: whitesmoke;
     background-color: black;
-    margin-bottom: 150px;
+    margin-bottom: 500px;
     margin-right: 500px;
     
 }
@@ -97,4 +112,11 @@ button:hover{
 
 }
 
+footer{
+    clear: both;
+    height: 100px; 
+    background-color: rgb(82, 79, 79);
+    width: 100%;
+    padding: 100px;
+}
 
